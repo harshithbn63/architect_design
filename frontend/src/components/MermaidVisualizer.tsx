@@ -126,9 +126,9 @@ export const MermaidVisualizer: React.FC<Props> = ({ chart }) => {
     }
 
     return (
-        <div className="w-full overflow-x-auto p-6 bg-black rounded-xl min-h-[300px] flex justify-center items-center">
+        <div className="w-full overflow-x-auto p-6 bg-black rounded-xl min-h-[350px] flex justify-center items-center">
             <div
-                className="transform scale-150 origin-center"
+                style={{ transform: 'scale(1.75)', transformOrigin: 'center' }}
                 dangerouslySetInnerHTML={{ __html: svg }}
             />
         </div>
