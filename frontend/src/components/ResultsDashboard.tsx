@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { ArchitectureResponse, DecisionStep, TechOption, WhatIfScenario, ClarifyingQuestion } from '../api';
+import { ArchitectureResponse, DecisionStep, TechOption, WhatIfScenario } from '../api';
 import { MermaidVisualizer } from './MermaidVisualizer';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Zap, Activity, Layout, MessageSquare, Send, CheckCircle2, Info, Server, Shield, XCircle, ArrowRight } from 'lucide-react';
+import { Zap, Activity, Layout, MessageSquare, Send, CheckCircle2, Server } from 'lucide-react';
 
 interface Props {
     data: ArchitectureResponse;
